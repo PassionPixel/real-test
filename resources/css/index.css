@@ -1,0 +1,44 @@
+.title {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background-image: url(../images/pattern.jpeg);
+    
+    
+    }
+    .boldblue {
+        
+        font-weight: bold;
+        color: blue;
+    }
+    .soustitres {
+        
+        font-size: 32px;
+        font-weight: bold;
+        color: white;
+    }
+    
+   
+    
+     .bg-springgreen {
+            background-color: MediumSpringGreen;
+        }
+    .bg-lightcoral {
+            background-color: lightcoral
+        }
+    .bg-skyblue {
+            background-color: skyblue 
+        }
+      .helvetica {
+        font-family: Helvetica;
+        
+        
+      }
+
+      h3 {
+          font-weight: bold; 
+      }
+      
+        
