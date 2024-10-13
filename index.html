@@ -1,34 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dasmoto's Arts & Crafts</title>
-    <link rel="stylesheet" href="./resources/css/index.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pizza Moderne</title>
+    <link rel="stylesheet" href="./resources/css/styles.css">
 </head>
 <body>
-    <header class="page">
-        <h1 class="title">Dasmoto's Arts & Crafts</h1>
+    <header>
+        <nav>
+            <div class="logo">🍕 PizzaModerne</div>
+            <ul class="nav-links">
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <h1>Découvrez nos pizzas artisanales</h1>
+            <p>Des ingrédients frais, des saveurs inégalées.</p>
+        </section>
+            <a href="#menu" class="btn">Voir le menu</a>
+        
     </header>
-    <main class="helvetica">
-      <section>
-        <h2 class="soustitres bg-springgreen"> Brushes</h2>
-        <img src="./resources/images/hacksaw.jpeg" alt="hacksaw">
-        <h3>Hacksaw Brushes</h3>
-        <p>Made of the highest quality oak, Hacksaw brushes are known for their weight and ability to hold paint in large amounts. Available in different sizes. <span class="boldblue">Starting at $3.00 / brush.</span></p>
-      </section> 
-      <section>
-        <h2 class="soustitres bg-lightcoral"> Frames</h2>
-        <img src="./resources/images/frames.jpeg" alt="frames">
-        <h3>Art Frames (assorted)</h3>
-        <p>Assorted frames made of different material, including MDF, birchwood, and PDE. Select frames can be sanded and painted according to your needs. <span class="boldblue">Starting at $2.00 / frame.</span></p>
-      </section> 
-      <section>
-        <h2 class="soustitres bg-skyblue"> Paint</h2>
-        <img src="./resources/images/finnish.jpeg" alt="finnish">
-        <h3>Clean Fininish Paint</h3>
-        <p>Imported paint from Finland. Over 256 colors available in-store, varying in quantity (1 oz. to 8 oz.). Clean Finnish paint microbinds to canvas, increasing the finish and longevity of any artwork. <span class="boldblue">Starting at $5.00 / tube.</span></p>
-      </section>
+
+    <main>
+        <section id="menu" class="menu">
+            <h2>Notre Menu</h2>
+            <div class="pizza-list">
+                <div class="pizza-item">
+                    <img src="./resources/images/margherita.jpg" alt="Pizza Margherita">
+                    <h3>Margherita</h3>
+                    <p>Sauce tomate, mozzarella, basilic</p>
+                    <span>8,99€</span>
+                </div>
+                <div class="pizza-item">
+                    <img src="./resources/images/pepperoni.jpg" alt="Pizza Pepperoni">
+                    <h3>Pepperoni</h3>
+                    <p>Pepperoni, sauce tomate, mozzarella</p>
+                    <span>9,99€</span>
+                </div>
+                <div class="pizza-item">
+                    <img src="./resources/images/vege.jpg" alt="Pizza Végétarienne">
+                    <h3>Végétarienne</h3>
+                    <p>Légumes grillés, mozzarella, pesto</p>
+                    <span>10,99€</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>À propos de nous</h2>
+            <p>Chez PizzaModerne, nous utilisons des ingrédients frais et locaux pour vous offrir des pizzas artisanales de qualité supérieure. Chaque pizza est préparée avec passion et soin.</p>
+        </section>
     </main>
-        </body>
+
+    <footer id="contact">
+        <h2>Contactez-nous</h2>
+        <p>📍 Rue de la Pizzéria 123, 1000 Bruxelles</p>
+        <p>📞 012 345 678</p>
+        <p>✉️ contact@pizzamoderne.com</p>
+        <p>&copy; 2024 PizzaModerne. Tous droits réservés.</p>
+    </footer>
+</body>
 </html>

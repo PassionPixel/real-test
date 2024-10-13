@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: url('../images/pizzahero.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav {
+    position: fixed;;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    display:  inline-block;
+}
+.nav-links a:hover {
+    transform: translateY(10px); 
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 1rem 0;
+}
+
+.btn {
+    background-color: orange;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.6s ease;
+    display: inline-block;
+    font-weight: bold;
+     
+}
+
+.btn:hover {
+    background-color: #d62828;
+    transform: translateY(10px);   
+}
+
+main {
+    padding: 2rem;
+}
+
+.menu {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.pizza-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.pizza-item {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.pizza-item:hover {
+    transform: translateY(-30px);
+}
+
+.pizza-item img {
+    width: 500px;
+    border-radius: 10px;
+    height: 350px
+    
+}
+
+.pizza-item h3 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.pizza-item span {
+    display: block;
+    margin-top: 0.5rem;
+    color: #e63946;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+
+.about {
+    background-color: #f1f1f1;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+.hero {
+    border: 5px solid #fff;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 10px 50px
+}
