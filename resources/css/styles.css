@@ -34,10 +34,14 @@ nav {
     color: #fff;
     font-size: 1.5rem;
     font-weight: bold;
+    transition: transform 0.3s ease;
+    display:  inline-block;
     
     
 }
-
+.logo:hover {
+    transform: translateY(10px); 
+}
 .nav-links {
     list-style: none;
     display: flex;
